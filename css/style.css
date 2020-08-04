@@ -1,0 +1,24 @@
+body{
+    font-family: 'Work Sans', sans-serif;
+}
+/* navbar */
+.navbar {
+    background: #508076;
+}
+.nav-link, .navbar-brand , .navbar h2{
+    color: #e6f2f0;
+    cursor: pointer;
+}
+.nav-link{
+    margin-right: 1em;
+}
+.nav-link:hover{
+    color: #93ada9;
+}
+.navbar-collapse{
+    justify-content: flex-end;
+}
+/* header style */
+.header{
+    background-image: url("../images/coffee.jpg");
+}
