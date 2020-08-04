@@ -3,7 +3,7 @@ body{
 }
 /* navbar */
 .navbar {
-    background: #508076;
+    background: #36615a;
 }
 .nav-link, .navbar-brand , .navbar h2{
     color: #e6f2f0;
@@ -12,13 +12,87 @@ body{
 .nav-link{
     margin-right: 1em;
 }
+
 .nav-link:hover{
     color: #93ada9;
 }
 .navbar-collapse{
     justify-content: flex-end;
 }
+
 /* header style */
 .header{
     background-image: url("../images/coffee.jpg");
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+    min-height: 100%;
+    min-width: 100%;
+}
+.overlay{
+ position: absolute;
+ left: 0;
+ top: 0;
+ min-height: 100%;
+ min-width: 100%;
+ background: rgba(247, 245, 245, 0.25);
+}
+.description{
+    position: absolute;
+    top: 30%;
+    margin: auto;
+    padding: 2em;
+}
+.description h2{
+    color:  #1b2725;
+
+}
+.btn-outline-secondary {
+    color: #e6f2f0;
+    border-color: #e6f2f0;
+}
+/* about section */
+.about{
+ margin: 4em 0;
+ padding: 1em;
+ position: relative;
+}
+.about h1{
+ color#1b2725;
+ margin: 2em;
+}
+
+.about img{
+    height: 100%;
+    width: 100%;
+    border-radius: 75%;
+}
+.about .desc{
+ padding: 2em;
+ border-left:4px solid #1b2725;
+}
+@media (max-width: 768px){
+    .about .desc{
+ padding: 2em;
+ border-left: 0;
+}
+}
+.about .desc h3{
+ color: #1b2725;
+}
+.about .desc p{
+ line-height:2;
+ color:#1b2725;
+}
+
+/* gallery */
+
+.gallery {
+    margin: 0;
+    position: relative;
+    
+}
+.gallery h2{
+    color:#1b2725;
+    margin: 2em;
 }
