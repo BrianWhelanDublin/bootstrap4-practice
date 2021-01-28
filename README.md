@@ -4,7 +4,8 @@
 - This project was to create a single page website to utilize bootstrap. 
 - This project was followed along from [freecodecamp](https://www.freecodecamp.org/learn/). 
 - The purpose of this project was to learn the basics of Bootsrap.
-- I built a tribute page for Diana Princess of Wales.
+- I built a page for a coffe shop.
+- Images used are from unsplash
 
 
 
